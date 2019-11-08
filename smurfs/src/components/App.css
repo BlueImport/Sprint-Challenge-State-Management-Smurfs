@@ -26,3 +26,26 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.SmurfForm {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+
+  padding-left: 50px;
+ 
+}
+
+.SmurfsCard {
+  border: 2px solid blue;
+  width: 20%;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding-bottom: 8px;
+  background: lightskyblue;
+  
+}
