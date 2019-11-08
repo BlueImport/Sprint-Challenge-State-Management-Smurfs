@@ -3,7 +3,7 @@ import { SmurfContext } from '../contexts/SmurfContext';
 
 import Smurfs from './Smurfs';
 //if you look into the field of daises, you'll found not one flower, but a living field.
-const SmurfsList = props => {
+const SmurfsList = ()=> {
 	const { smurfs, deleteSmurf } = useContext(SmurfContext);
 
 	return (

@@ -19,7 +19,9 @@ const App = () => {
     }, []);
 
     const addSmurfs = smurf => {
-    axios.post('http://localhost:3333/smurfs', smurf).then(res => {}).catch(err => console.log(err));
+    axios.post('http://localhost:3333/smurfs', smurf)
+    .then(res => {})
+    .catch(err => console.log(err));
     };
 
     const deleteSmurf = smurfId => {
