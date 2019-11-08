@@ -19,23 +19,23 @@ const SmurfsForm = () => {
 
 	return (
 		<div className="SmurfForm">
-			<h2>Add a new smurf</h2>
-			<form onSubmit={event => handleSubmit(event)}>
-				<input
+			<h2>New Village Smurf</h2>
+			<form className="form" onSubmit={event => handleSubmit(event)}>
+				<input className="formName"
 					type="text"
 					name="name"
 					placeholder="name"
 					value={newSmurf.name}
 					onChange={event => handleChange(event)}
 				/>
-				<input
+				<input className="formAge"
 					type="number"
 					name="age"
 					placeholder="age"
 					value={newSmurf.age}
 					onChange={event => handleChange(event)}
 				/>
-				<input
+				<input className="formHeight"
 					type="text"
 					name="height"
 					placeholder="height"

@@ -34,7 +34,7 @@ const App = () => {
     return (
     <SmurfContext.Provider value={{ smurfs, setSmurfs, addSmurfs, deleteSmurf }}>
     <div className="App">
-      <h1>SMURFS! 2.0 W/ Redux</h1>
+      <h1>The Smurf Village Directory</h1>
       <SmurfsList />
       <SmurfsForm />
     </div>
